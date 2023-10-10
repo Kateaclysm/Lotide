@@ -15,8 +15,8 @@ const middle = function (inputArray) {
   }
 
   
-  console.log(revisedArray);
+  return revisedArray;
 }
 
-
+module.exports = middle;
 
