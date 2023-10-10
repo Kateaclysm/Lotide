@@ -1,5 +1,5 @@
-const testArray1 = [1, 2, 3, 4, 5, 6, 7, 8, 9,];
-const testArray2 = ["Having", "a", "very", ",", "very", "nice", "day"];
+/*const testArray1 = [1, 2, 3, 4, 5, 6, 7, 8, 9,];
+const testArray2 = ["Having", "a", "very", ",", "very", "nice", "day"];*/
 
 
 const takeUntil = function(array, callback) {
@@ -12,6 +12,7 @@ const takeUntil = function(array, callback) {
   console.log(returnedArray);
 };
 
-
+module.exports = takeUntil;
+/*
 takeUntil(testArray1, (item) => item >= 6 );
-takeUntil(testArray2, (item) => item === ",")
+takeUntil(testArray2, (item) => item === ",")*/

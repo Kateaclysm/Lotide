@@ -13,11 +13,11 @@ const without = function(source, itemsToRemove) {
 
         foundStatus = true;
 
-      } 
+      }
       
       
 
-    } 
+    }
    
 
     
@@ -27,17 +27,10 @@ const without = function(source, itemsToRemove) {
 
     }
   
-    foundStatus = false;    
+    foundStatus = false;
 
   }
   
   return result;
-}
-
-  
-
-
-
-const sampleArray = [1,2,3,4,5];
-
-console.log(without(sampleArray, [1,3,5]));
+};
+module.exports = without;

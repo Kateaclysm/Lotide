@@ -19,6 +19,8 @@ const letterPositions = function (sentence) {
   }
 return result;
 };
+module.exports = letterPositions;
+/*
 console.log(letterPositions("My Name Is Kate"))
 
-console.log(letterPositions("aabbcc"));
+console.log(letterPositions("aabbcc"));*/
