@@ -10,14 +10,6 @@ const eqArrays = function(array1, array2) {
     return false;
   }
 };
-
-
-
-
-
-
-
-//eqObjects will return either true or false; depending on if the two given objects have identical keys and identical values. Otherwise, returns false.
 const eqObjects = function(object1, object2) {
   let object1Array = Object.keys(object1);
   let object2Array = Object.keys(object2);
